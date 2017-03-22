@@ -3,6 +3,20 @@
 Using [React Create App](https://github.com/facebookincubator/create-react-app).
 See [React Create App user's guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+## Run
+```bash
+# install packages
+npm install
+# start app
+npm start
+```
+
+* React app at [http://localhost:3000](http://localhost:3000).
+* React Storybook at [http://localhost:9009](http://localhost:9009).
+
+## Setup steps
+
+### Install React start app
 ```bash
 # Install 
 npm install -g create-react-app
@@ -11,7 +25,7 @@ npm install -g create-react-app
 create-react-app react-app
 ```
 
-## Add storybook
+### Add storybook
 
 [React Storybook](https://github.com/storybooks/react-storybook).
 
@@ -26,4 +40,4 @@ getstorybook
 npm run storybook
 ```
 
-Will build at [http://localhost:9009/](http://localhost:9009/).
+Will run at [http://localhost:9009/](http://localhost:9009/).
